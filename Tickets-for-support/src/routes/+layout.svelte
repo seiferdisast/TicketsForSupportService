@@ -1,12 +1,13 @@
 <script>
 	import Header from './Header.svelte';
 	import './styles.css';
+    import Test from './test.svelte';
 </script>
 
 <div class="app">
 	<Header />
-
 	<main>
+		<Test/>
 		<slot />
 	</main>
 
